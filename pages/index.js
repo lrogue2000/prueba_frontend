@@ -1,5 +1,5 @@
 import UbicacionForm from "../components/UbicacionForm.js";
-
+import Map from "../components/Map.js";
 function HomePage(){
 
   async function agregarUbicacion(dataIngresada){
@@ -17,7 +17,7 @@ function HomePage(){
 
   return (<div>
     <UbicacionForm onAddUbicacion={agregarUbicacion}/>
-    
+    <Map/>
   </div>)
   
   
