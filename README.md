@@ -70,15 +70,15 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     background-color: #FFB533;
     color: black;
     padding: 0.5rem 1.5rem;
-    border: 1px solid #77002e;
+    border: 1px solid #FFB533;
     border-radius: 4px;
     font-weight: bold;
   }
   
   .actions button:hover,
   .actions button:active {
-    background-color: #a50e48;
-    border-color: #a50e48;
+    background-color: #FFB533;
+    border-color: #FFB533;
   }
 
 
