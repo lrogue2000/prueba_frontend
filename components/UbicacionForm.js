@@ -9,8 +9,8 @@ function UbicacionForm(props) {
   const distritoRef = useRef();
   const codeRef = useRef();
   const direccionRef = useRef();
-  const longitudRef = useRef();
-  const latitudRef = useRef();
+ const longitudRef = useRef();
+ const latitudRef = useRef();
 
   function salvarUbicacion(event) {
     event.preventDefault();
@@ -38,7 +38,7 @@ function UbicacionForm(props) {
   }
 
   return (
-  
+      
       <form className={classes.form} onSubmit={salvarUbicacion}>
         <div className={classes.control}>
           <label htmlFor='provincia'>Provincia</label>
@@ -73,8 +73,11 @@ function UbicacionForm(props) {
           <button>Salvar Ubicacion </button>
         </div>
       </form>
+
+      
   
   );
+ 
 }
 
 export default UbicacionForm;
